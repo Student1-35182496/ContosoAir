@@ -15,6 +15,16 @@ resources:
       include:
        - master
 
+variables:
+- name: resourcegroup
+  value: rg-lod
+- name: web_prefix
+  value: student1-35182496
+- name: web_site
+  value: ContosoAir
+- name: web_environment
+  value: prod
+
 pool:
   vmImage: ubuntu-latest
 
